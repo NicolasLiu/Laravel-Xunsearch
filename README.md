@@ -1,10 +1,11 @@
 Laravel XunSearch
 ==============
 
-[![Latest Stable Version](https://poser.pugx.org/nicolasliu/laravel-xunsearch/v/stable.png)](https://packagist.org/packages/nicolasliu/laravel-xunsearch)
+[![Latest Stable Version](https://poser.pugx.org/nicolasliu/laravel-xunsearch/version)](https://packagist.org/packages/nicolasliu/laravel-xunsearch)
 [![Latest Unstable Version](https://poser.pugx.org/nicolasliu/laravel-xunsearch/v/unstable.png)](https://packagist.org/packages/nicolasliu/laravel-xunsearch)
-[![License](https://poser.pugx.org/nicolasliu/laravel-xunsearch/license.png)](https://packagist.org/packages/nicolasliu/laravel-xunsearch)
+[![License](https://poser.pugx.org/nicolasliu/laravel-xunsearch/license)](https://packagist.org/packages/nicolasliu/laravel-xunsearch)
 [![Total Downloads](https://poser.pugx.org/nicolasliu/laravel-xunsearch/downloads)](https://packagist.org/packages/nicolasliu/laravel-xunsearch)
+[![composer.lock available](https://poser.pugx.org/nicolasliu/laravel-xunsearch/composerlock)](https://packagist.org/packages/nicolasliu/laravel-xunsearch)
 
 Xunsearch Driver for Laravel Scout.
 
@@ -32,7 +33,7 @@ Publish the config file into your project by running:
 ```bash
 php artisan vendor:publish --provider="Nicolasliu\Xunsearch\XunsearchServiceProvider"
 ```
-###Basic
+
 Add Xunsearch settings into `.env` file:
 
 ```
