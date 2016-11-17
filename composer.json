@@ -12,6 +12,7 @@
         },
         "files": ["sdk/XS.php"]
     },
+    "license": "MIT",
     "minimum-stability": "stable",
     "prefer-stable": true
 }
