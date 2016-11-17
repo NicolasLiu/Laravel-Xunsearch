@@ -1,0 +1,17 @@
+{
+    "name": "nicolasliu/laravel-xunsearch",
+    "description": "Xunsearch Driver for Laravel Scout.",
+    "keywords": ["laravel", "scout", "xunsearch"],
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/scout": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nicolasliu\\Xunsearch\\": "src/"
+        },
+        "files": ["sdk/XS.php"]
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
